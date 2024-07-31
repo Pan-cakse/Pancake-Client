@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "pancakeclient",
+  "version": "${version}",
+  "name": "Pancake Client",
+  "description": "A another Minecraft client",
+  "authors": [
+    "Pancakse"
+  ],
+  "contact": {
+    "repo": "https://github.com/Pan-cakse/Pancake-Client"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "accessWidener": "pancakeclient.accesswidener",
+  "entrypoints": {
+    "client": [
+      "me.pancakse.pancakeclient.PancakeClient"
+    ],
+    "main": [
+      "me.pancakse.pancakeclient.PancakeClient"
+    ]
+  },
+  "mixins": [
+    "pancakeclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
