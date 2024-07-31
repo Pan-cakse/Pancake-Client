@@ -1,5 +1,6 @@
 # Pancake Client
 ## My Very Own Minecraft Client!
+### You need Fabric 1.20.4
 
 ### DOES NOT CONTAIN
 - Decompiled Minecraft Code
